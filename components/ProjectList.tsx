@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { brands } from "@/content/brands";
 import { projects } from "@/content/projects";
-import { site } from "@/content/site";
+import { cx } from "@/lib/cx";
 import { Label } from "./Label";
 import { Section } from "./Section";
 
@@ -60,12 +61,28 @@ export function ProjectList() {
       <div className="col-span-full grid grid-cols-subgrid gap-y-6 border-t border-line pt-6">
         <Label className="col-span-full lg:col-span-3">Marcas com quem trabalhei</Label>
         <ul className="col-span-full grid grid-cols-subgrid lg:col-span-9">
-          {site.brands.map((brand) => (
+          {brands.map((brand) => (
             <li
-              key={brand}
-              className="col-span-2 flex h-24 items-center border-b border-line font-serif text-h2-sm sm:col-span-2 lg:col-span-3 lg:text-h2"
+              key={brand.name}
+              className="group/brand col-span-2 flex h-32 items-center border-b border-line sm:col-span-2 lg:col-span-3"
             >
-              {brand}
+              {brand.logo ? (
+                <Image
+                  src={brand.logo}
+                  alt={brand.name}
+                  className={cx(
+                    "w-auto max-w-full object-contain transition-[filter,opacity] duration-300 group-hover/brand:opacity-100 group-hover/brand:filter-none",
+                    brand.height,
+                    brand.kind === "badge"
+                      ? "rounded-full opacity-80 grayscale"
+                      : "opacity-80 brightness-0",
+                  )}
+                />
+              ) : (
+                <span className="text-h3 font-semibold tracking-widest uppercase opacity-80">
+                  {brand.name}
+                </span>
+              )}
             </li>
           ))}
         </ul>

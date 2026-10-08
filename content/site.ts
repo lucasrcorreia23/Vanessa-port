@@ -9,12 +9,10 @@ export const site = {
     "Comunicação sempre foi uma paixão e, ao longo da minha vida, transformei esse interesse em carreira. Sou formada em Publicidade e Propaganda e também em Marketing, com experiência em diferentes frentes do marketing digital.",
   year: 2026,
   links: {
-    // TODO: preencher com o e-mail da Vanessa — o botão só aparece quando houver valor.
-    email: "",
+    email: "vanessa.serafimw@gmail.com",
     linkedin: "https://www.linkedin.com/in/vanessa-serafim-wehmuth/",
     whatsapp: "https://wa.me/5548991681826",
-    resume:
-      "https://drive.google.com/file/d/1yW7NZPK9waF0c9X-DnVT6ENQPvMG50P2/view?usp=sharing",
+    resume: "/curriculo-vanessa-serafim-wehmuth.pdf",
   },
   photos: {
     hero: {
@@ -55,17 +53,6 @@ export const site = {
     },
   ],
   segments: ["Tecnologia", "Serviços", "Varejo", "Comunicação", "B2B", "B2C"],
-  brands: [
-    "Huawei",
-    "xFusion",
-    "Nivea",
-    "Océane",
-    "Embelleze",
-    "Payot",
-    "Herbíssimo",
-    "Cremer",
-    "Prudence",
-  ],
 } as const;
 
 export type ContactLink = { label: string; value: string; href: string };
@@ -80,7 +67,7 @@ export function contactLinks(): ContactLink[] {
       href: linkedin,
     },
     !!whatsapp && { label: "WhatsApp", value: "+55 48 99168-1826", href: whatsapp },
-    !!resume && { label: "Currículo", value: "Ver no Google Drive", href: resume },
+    !!resume && { label: "Currículo", value: "Ver currículo (PDF)", href: resume },
   ];
   return links.filter((link): link is ContactLink => !!link);
 }
