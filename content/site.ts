@@ -3,10 +3,10 @@ import pinacoteca from "@/public/images/home/vanessa-pinacoteca.jpeg";
 
 export const site = {
   name: "Vanessa Serafim Wehmuth",
-  role: "Analista de Marketing",
-  headline: "Analista de Marketing | Estratégia, Conteúdo & Digital",
+  role: "Growth Marketing",
+  headline: "Growth Marketing | Social Media & Copywriter",
   intro:
-    "Comunicação sempre foi uma paixão e, ao longo da minha vida, transformei esse interesse em carreira. Sou formada em Publicidade e Propaganda e também em Marketing, com experiência em diferentes frentes do marketing digital.",
+    "Comunicação sempre foi uma paixão e, ao longo da minha vida, transformei esse interesse em carreira. Sou formada em Publicidade e Propaganda e também em Marketing, com experiência em growth, conteúdo e marketing digital, conectando posicionamento, aquisição e resultados de negócio.",
   year: 2026,
   links: {
     email: "vanessa.serafimw@gmail.com",
@@ -25,9 +25,9 @@ export const site = {
     },
   },
   about: [
-    "Ao longo da minha trajetória, construí experiência em diferentes áreas do marketing e em empresas de segmentos diversos, passando por tecnologia, serviços, varejo e comunicação. Já atuei com planejamento e produção de conteúdo, redes sociais, campanhas digitais, mídia paga, SEO, e-mail marketing, CRM, eventos, criação de materiais e posicionamento de marca.",
+    "Ao longo da minha trajetória, construí experiência em diferentes áreas do marketing e em empresas de segmentos diversos, passando por tecnologia, serviços, varejo e comunicação. Já atuei com estratégia de growth, geração de demanda, planejamento e produção de conteúdo, redes sociais, tráfego pago, SEO, e-mail marketing, CRM, comunidades, influenciadores, eventos e posicionamento de marca.",
     "Essa experiência me permitiu desenvolver uma visão mais ampla do marketing, entendendo tanto a parte estratégica quanto a execução das ações. Também tive contato com diferentes públicos e modelos de negócio, incluindo projetos B2B e B2C, o que ampliou minha capacidade de adaptar estratégias de comunicação de acordo com cada contexto.",
-    "Ao longo dos anos, fui aprofundando conhecimentos em storytelling, copywriting, planejamento de campanhas e análise de métricas, sempre buscando conectar comunicação, objetivos de negócio e resultados.",
+    "Ao longo dos anos, fui aprofundando conhecimentos em storytelling, copywriting, planejamento de campanhas e análise de métricas, indicadores e OKRs, sempre buscando conectar comunicação, crescimento e objetivos de negócio.",
   ],
   education: ["Publicidade e Propaganda", "Marketing"],
   expertise: [
@@ -42,8 +42,8 @@ export const site = {
       keywords: ["Storytelling", "Copywriting", "SEO", "Social media"],
     },
     {
-      title: "Mídia & Performance",
-      body: "Campanhas de mídia paga, mensuração e análise de métricas para otimizar resultados.",
+      title: "Growth & Performance",
+      body: "Tráfego pago, geração de demanda e análise de métricas e OKRs para otimizar aquisição e conversão.",
       keywords: ["Meta Ads", "Google Ads", "GA4", "Google Tag Manager"],
     },
     {

@@ -164,8 +164,8 @@ export const projects: Project[] = [
     slug: "omd-solucoes",
     title: "OMD Soluções",
     client: "OMD Soluções",
-    service: "Analista de conteúdo",
-    summary: "Estratégia de conteúdo, posicionamento e marketing B2B para uma empresa de tecnologia.",
+    service: "Analista de growth marketing",
+    summary: "Estratégia de growth, posicionamento e marketing B2B para uma empresa de tecnologia.",
     cover: {
       src: omdCapa,
       alt: "Posts e artigos de blog da OMD Soluções sobre ouvidoria e canal de denúncia",
@@ -174,13 +174,13 @@ export const projects: Project[] = [
       {
         label: "Contexto",
         body: [
-          "Na OMD Soluções, atuei como Analista de Conteúdo em uma empresa B2B de tecnologia especializada em Ouvidoria, Compliance e Governança. Foi uma experiência importante para aprofundar minha atuação estratégica em marketing, principalmente na transformação de temas técnicos e complexos em conteúdos mais claros, relevantes e conectados aos objetivos do negócio.",
+          "Na OMD Soluções, atuei como Analista de Growth Marketing em uma empresa B2B de tecnologia especializada em Ouvidoria, Compliance e Governança. Foi uma experiência importante para aprofundar minha atuação estratégica em growth, principalmente na transformação de temas técnicos e complexos em conteúdos mais claros, relevantes e conectados à geração de demanda e aos objetivos do negócio.",
         ],
       },
       {
         label: "Atuação",
         body: [
-          "Minha atuação envolvia o planejamento e desenvolvimento de conteúdos para diferentes canais, incluindo blog, LinkedIn, Instagram, newsletters, materiais institucionais e campanhas de e-mail. Também trabalhei com WordPress, SEO, RD Station e CRM, acompanhando a performance dos conteúdos e utilizando dados para identificar oportunidades de melhoria.",
+          "Minha atuação envolvia o planejamento e desenvolvimento de conteúdos para diferentes canais, incluindo blog, LinkedIn, Instagram, newsletters, materiais institucionais e campanhas de e-mail. Também trabalhei com WordPress, SEO, RD Station e CRM, acompanhando a performance dos conteúdos e do funil e utilizando dados para identificar oportunidades de crescimento.",
         ],
       },
       {
@@ -199,11 +199,11 @@ export const projects: Project[] = [
       {
         label: "Aprendizado",
         body: [
-          "A experiência na OMD ampliou minha visão sobre o papel do conteúdo dentro do marketing: não apenas como produção, mas como uma ferramenta de posicionamento, aquisição, relacionamento e apoio ao negócio.",
+          "A experiência na OMD ampliou minha visão sobre o papel do conteúdo dentro de uma estratégia de growth: não apenas como produção, mas como uma ferramenta de posicionamento, aquisição, relacionamento e crescimento do negócio.",
         ],
       },
     ],
-    tags: ["Estratégia editorial", "Personas", "Blog", "LinkedIn", "Newsletter", "WordPress", "SEO", "RD Station", "CRM"],
+    tags: ["Growth marketing", "Geração de demanda", "Estratégia editorial", "Personas", "Blog", "LinkedIn", "Newsletter", "WordPress", "SEO", "RD Station", "CRM"],
   },
   {
     slug: "grupo-ok",
