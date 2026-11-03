@@ -7,7 +7,7 @@ export function Contact({ index = "04" }: { index?: string }) {
     <Section id="contato" index={index} title="Contato">
       <div className="col-span-full lg:col-span-9 lg:col-start-4">
         <h2 className="font-serif text-display-sm sm:text-display-md lg:text-h1">
-          Trabalhe comigo!
+          Vamos conversar?
         </h2>
         <p className="mt-6 text-body-l text-muted">
           Entre em contato e vamos planejar novos projetos.
